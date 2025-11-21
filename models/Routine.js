@@ -14,7 +14,6 @@ const RoutineSchema = new mongoose.Schema({
     {
       label: String,
       title: String,
-      meta: String,
     },
   ],
   daysOrder: [String],

@@ -1,6 +1,7 @@
+import { NextResponse } from 'next/server';
+
 import connect from '@/lib/mongoose';
 import Routine from '@/models/Routine';
-import { NextResponse } from 'next/server';
 
 export const GET = async () => {
   await connect();
